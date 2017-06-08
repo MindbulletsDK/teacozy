@@ -6,7 +6,9 @@ body{
   opacity: 0.9;
   text-align: center;
 }
-
+.header {
+  text-align: right;
+}
 .mission {
   background-image: url("./images/img-mission-background.jpg");
   background-position: center;
@@ -24,4 +26,30 @@ body{
   width: 1200px;
   text-align: center;
 
+}
+.locations{
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addresses {
+  background-color: black;
+  margin: 15px 40px;
+  display: inline-block;
+  width:300px;
+  height:auto;
+  text-align: center;
+}
+
+.contact {
+  height: 200px;
+  vertical-align: middle;
+}
+
+.bottom {
+  margin-left: 20px;
+  text-align: left;
 }
